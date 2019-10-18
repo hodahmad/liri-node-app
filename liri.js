@@ -1,5 +1,6 @@
 //create variables to store keys and require files
 require("dotenv").config();
+var axios = require("axios");
 var fs = require("fs");
 var keys = require("./keys.js");
 var request = require('request');
